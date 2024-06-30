@@ -2,7 +2,8 @@ import React from 'react';
 import Profile from './components/Profile/Profile';
 import userData from './components/userData.json';
 
-const App = () => (
+const App = () => {
+  return (
   <div>
     <Profile
       name={userData.username}
@@ -13,5 +14,5 @@ const App = () => (
     />
   </div>
 );
-
+};
 export default App;
