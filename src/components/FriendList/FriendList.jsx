@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PropTypes from 'prop-types';
 import FriendListItem from '../FriendListItem/FriendListItem';
 import styles from './FriendList.module.css';
