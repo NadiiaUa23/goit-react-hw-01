@@ -38,5 +38,4 @@ Profile.propTypes = {
     likes: PropTypes.number.isRequired,
   }).isRequired,
 };
-
 export default Profile;
